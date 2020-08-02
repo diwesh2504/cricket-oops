@@ -1,0 +1,38 @@
+
+.top{
+    
+    display: grid;
+    grid-template-columns:repeat(3,auto);
+    grid-column-gap: 50px;
+    height: 200px;
+    
+}
+.game-title{
+    font-family:'Berkshire Swash', Helvetica, sans-serif;
+    color: rgba(191, 194, 21, 0.856);
+    font-size: 80px;
+    font-style: italic;
+    
+}
+.teams{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-column-gap: 50px;
+    width:auto;
+    
+    
+}
+.hit-button{
+    color:white;
+
+}
+.hit-button:disabled{
+    color:red;
+}
+.tables{
+    color:blueviolet !important;
+}
+.team-name{
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+}
